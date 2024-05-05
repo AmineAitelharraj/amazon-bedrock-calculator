@@ -59,7 +59,7 @@ def main():
                      "to help users select the most appropriate one."
         }
     )
-    st.title('Generative AI Model Cost Calculator')
+    st.title('Generative AI Model Cost Calculator for Amazon Bedrock 🧠')
 
     app_type = st.sidebar.selectbox('Select the type of Generative AI application',
                                     ['RAG Application', 'Chatbot Application'])
