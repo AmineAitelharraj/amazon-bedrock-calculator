@@ -52,8 +52,8 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded",
         menu_items={
-            'Get Help': 'https://www.reply.com/data-reply/fr/',
-            'Report a bug': "https://www.github.com/",
+            'Get Help': 'mailto:a.aitelharraj@reply.com',
+            'Report a bug': "https://github.com/DataReply-FR/amazon-bedrock-calculator/issues",
             'About': "A Streamlit application designed to estimate costs using the Amazon Bedrock cost calculator,"
                      "supporting a wide range of model providers, with the goal of benchmarking model costs "
                      "to help users select the most appropriate one."
@@ -61,6 +61,10 @@ def main():
     )
 
     st.title('Generative AI Model Cost Calculator for Amazon Bedrock 🧠')
+
+    st.markdown(
+        'Need assistance on complex use cases? Drop me an email on <a href="mailto:a.aitelharraj@reply.com"> a.aitelharraj@reply.com </a>',
+        unsafe_allow_html=True)
 
     st.sidebar.image("assets/img/DataReply.png", use_column_width=True)
 
