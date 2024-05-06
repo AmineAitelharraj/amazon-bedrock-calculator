@@ -25,7 +25,7 @@ git clone https://github.com/DataReply-FR/amazon-bedrock-calculator.git
 2. Change to the project directory:
 
 ```bash
-cd generative-ai-cost-calculator
+cd amazon-bedrock-calculator
 ```
 
 3. Install the required dependencies:
