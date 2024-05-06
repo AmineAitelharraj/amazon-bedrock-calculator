@@ -59,7 +59,10 @@ def main():
                      "to help users select the most appropriate one."
         }
     )
+
     st.title('Generative AI Model Cost Calculator for Amazon Bedrock 🧠')
+
+    st.sidebar.image("assets/img/DataReply.png", use_column_width=True)
 
     app_type = st.sidebar.selectbox('Select the type of Generative AI application',
                                     ['RAG Application', 'Chatbot Application'])
