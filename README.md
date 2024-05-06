@@ -19,7 +19,7 @@ model providers, with the goal of benchmarking model costs to help users select 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/generative-ai-cost-calculator.git
+git clone https://github.com/DataReply-FR/amazon-bedrock-calculator.git
 ```
 
 2. Change to the project directory:
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 1. Run the Streamlit application:
 
 ```bash
-streamlit run main_opus.py
+streamlit run amazon-bedrock-calculator.py
 ```
 
 2. Access the application in your web browser at the provided URL (usually `http://localhost:8501`)
